@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Checkpoint weights & model artifacts
+/checkpoints/
+*.pth
+*.onnx
+*.pt
+!experiments/checkpoints/*.pt
+
+# Telemetry logs, experiment outputs, and plots
+/logs/
+scratch/
+results/
+telemetry/
+*.log
+*.csv
+!experiments/logs/*.csv
+runs/
+
+# IDE & OS specific
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
