@@ -5,6 +5,9 @@
 [![Gymnasium](https://img.shields.io/badge/Gymnasium-0.29%2B-brightgreen.svg)](https://gymnasium.farama.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Group 14:** Aditya Chhajed (`B24CM1073`) & Vedansh Buchasia (`B24CM1066`)  
+*Department of Artificial Intelligence & Data Science*
+
 An industrial-grade Reinforcement Learning framework for autonomous chemical dosing and pH neutralization in Continuous Stirred-Tank Reactors (CSTR). Featuring a from-scratch PyTorch implementation of **continuous Proximal Policy Optimization (PPO)** benchmarked against an industrial **Dual-Split PID Controller baseline**.
 
 ---
